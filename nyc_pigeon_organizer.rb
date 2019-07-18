@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   new_data = {}
   data.keys.each do |item|
     data[item].keys.each do |item2|
-      item2.each do |array_elem|
+      data[item][item2].each do |array_elem|
         if new_data[array_elem]
           if new_data[array_elem][item]
             new_data[array_elem][item].push(item2.to_s)
