@@ -1,3 +1,7 @@
+# reorganize data in a hash, changing the keys and values
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  new_pigeons = {}
+  new_pigeons.keys = []
+  data.keys.each do |item|
+    
 end
